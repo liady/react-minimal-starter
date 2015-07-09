@@ -8,7 +8,7 @@ Run the following commands:
 npm install
 npm run dev
 ```
-Navigate your browser to `localhost:8181` to see the results. The files are watched, so every change will be automatically built.
+Navigate your browser to `localhost:8181` to see the results. The files are watched, so all changes are automatically built.
 
 ## Production
 Run the following commands:
