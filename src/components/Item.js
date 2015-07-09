@@ -1,9 +1,22 @@
 import React from "react/addons";
+import ReactCSS from "reactcss";
 
 var Item = React.createClass({
-    mixins : [React.addons.PureRenderMixin],
+    mixins : [React.addons.PureRenderMixin, ReactCSS.mixin],
+    styles : function(){
+        return this.css()
+    },
+    classes : function(){
+        return {
+          'default': {
+            item: {
+              "font-weight": 'bold'
+            }
+          }  
+        };
+    },
     render : function(){
-        return <li>
+        return <li is="item">
             Item text : {this.props.text}
         </li>
     }

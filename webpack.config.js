@@ -26,9 +26,9 @@ module.exports = {
 
   module: {
     loaders: [
-      {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
-      {test: /\.scss$/, loader: "style!css!sass?sourceMap"},
-      {test: /\.css$/, loader: "style!css"},
+      {test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader', 'react-map-styles']},
+      {test: /\.scss$/, loaders: ["style","css","sass?sourceMap"]},
+      {test: /\.css$/, loaders: ["style","css"]},
       {test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&minetype=application/font-woff"},
       {test: /\.(png|jpg|jpeg|gif|svg)$/, loader: 'url-loader?limit=10000'},
       {test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader"}
