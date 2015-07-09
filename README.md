@@ -2,19 +2,21 @@
 
 A very lean React boilerplate, using webpack.
 
-## Production
-
-```
-npm install
-npm run webpack
-```
-
 ## Development
-
+Run the following commands:
 ```
 npm install
 npm run dev
 ```
+Navigate your browser to `localhost:8181` to see the results. The files are watched, so every change will be automatically built.
+
+## Production
+Run the following commands:
+```
+npm install
+npm run webpack
+```
+The bundled file is created in `public/js/bundle.js`
 
 ## File structure
 ```
