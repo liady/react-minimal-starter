@@ -1,7 +1,7 @@
 import React from "react/addons";
 import Item from "./Item";
 
-var Root = React.createClass({
+var List = React.createClass({
     mixins : [React.addons.PureRenderMixin],
 
     render : function(){
@@ -17,4 +17,4 @@ var Root = React.createClass({
     }
 });
 
-export default Root;
+export default List;
