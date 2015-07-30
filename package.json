@@ -19,7 +19,7 @@
     "node-libs-browser": "^0.5.2",
     "node-sass": "^3.2.0",
     "react": "^0.13.3",
-    "react-map-styles": "git://github.com/liady/react-map-styles",
+    "react-map-styles": "git://github.com/casesandberg/react-map-styles",
     "reactcss": "^0.3.2",
     "sass-loader": "^1.0.2",
     "style-loader": "^0.12.3",
