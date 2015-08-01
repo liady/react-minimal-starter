@@ -6,9 +6,8 @@ var List = React.createClass({
 
     render : function(){
         
-        var items = [];
-        this.props.items.forEach(function(item){
-            items.push(<Item text={item.text}/>);
+        var items = this.props.items.map(function(item, index){
+            return <Item key={index} text={item.text}/>;
         });
         
         return <ul>
