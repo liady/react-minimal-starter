@@ -10,7 +10,7 @@ var Item = React.createClass({
         return {
           'default': {
             item: {
-              "font-weight": 'bold'
+              "fontWeight": 'bold'
             }
           }  
         };
